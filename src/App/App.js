@@ -10,6 +10,7 @@ function App() {
   const[data, setData] = useState( [] );
   const[loaded, setLoaded] = useState( false );
   const[currentSearch, setSearch] = useState('');
+  const[message, setMessage] = useState('Please enter search parameter')
 
   useEffect(() => {
     fetchData(
@@ -25,7 +26,7 @@ function App() {
         <h1>Flickr Search</h1>
       </header>
       { !loaded ? <Loading /> :
-      <Home data={ data } currentSearch={currentSearch} setSearch={setSearch} />
+      <Home data={ data } currentSearch={currentSearch} setSearch={setSearch} message={message} setMessage={setMessage} />
 
    }
     </div>
