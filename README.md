@@ -1,4 +1,4 @@
-# Flickr Image Search App
+# [Flickr Image Search App](https://edwardkrupicka.github.io/flickr-search/)
 
 ## The Task
 Write an application that uses the Flickr image search API and displays the images in a grid.
