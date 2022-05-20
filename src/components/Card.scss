@@ -10,30 +10,31 @@
 	align-items: center;
 	overflow: hidden;
 
-	img {
-		height: 100%;
+		img {
+			height: 100%;
+		}
+
+
+	.card-container:hover{
+		transform: translateY(-10px);
 	}
-}
 
-.card-container:hover{
-	transform: translateY(-10px);
-}
+	h1 {
+		font-size: 5vh;
+		height: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-h1 {
-	font-size: 5vh;
-	border: 1px solid black;
-	height: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-p {	
-	word-break: break-all;
-	white-space: normal;
-	border: 1px solid rgb(207, 0, 0);
-	height: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	p {	
+		word-break: break-all;
+		white-space: normal;
+		border: 1px solid rgb(207, 0, 0);
+		height: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
 }
